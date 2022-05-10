@@ -1,0 +1,40 @@
+ /* GALLERY PAGE STYLE */
+
+body{
+    padding-top: 88px;
+}
+.gallery-wrapper{
+    background-color: white;
+}
+
+.main-gallery{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-auto-rows: 400px;
+    grid-gap: 10px;
+    background-color: #73755a;
+
+    img{
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        transition: all 300ms;
+
+        filter: grayscale(100%);
+    
+        transition: all .25s ease-in-out;
+    }
+    .pine1{
+        grid-column-start: span 2;
+    }
+    .pine5{
+        grid-row-start: span 2;
+    }
+    .pine12{
+        grid-column-start: span 2;
+    }
+    img:hover{
+        filter: grayscale(0);
+    }
+}
+
