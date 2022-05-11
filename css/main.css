@@ -40,12 +40,11 @@ footer {
   -webkit-backdrop-filter: blur(9.5px);
   border-radius: 10px;
   border: 1px solid rgba(255, 255, 255, 0.18); }
-
-.aboutus p {
-  margin: 5%;
-  font-size: 20px;
-  color: black;
-  line-height: 2em; }
+  .aboutus p {
+    margin: 5%;
+    font-size: 20px;
+    color: black;
+    line-height: 2em; }
 
 .formwrapper {
   background-color: #73755A;
