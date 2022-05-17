@@ -13,6 +13,9 @@
     width: 100%;
     justify-content: flex-end; }
 
+.navbar-brand {
+  font-size: 4vh; }
+
 /* FOOTER STYLE */
 footer {
   background-color: #73755a;
