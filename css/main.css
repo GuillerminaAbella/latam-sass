@@ -151,10 +151,16 @@ body {
 
 /* ABOUT SECTION STYLE */
 .aboutsection {
-  background-image: url(../public/contact-background.JPG);
-  background-size: cover;
-  padding: 2vw; }
-  .aboutsection .circle {
+  background-color: #73755a;
+  padding: 10vw;
+  color: white; }
+
+@media only screen and (min-width: 768px) {
+  .aboutsection {
+    background-image: url(../public/contact-background.JPG);
+    background-size: cover;
+    padding: 2vw; }
+  .circle {
     background: #73755a;
     width: 45vw;
     height: 45vw;
@@ -166,15 +172,15 @@ body {
     padding: 5vw;
     position: relative;
     opacity: 80%; }
-  .aboutsection .text {
+  .text {
     transform: translate(-50%, -50%);
     position: absolute;
     top: 50%;
     left: 50%; }
-  .aboutsection .pau {
+  .pau {
     font-size: 3vw;
     font-weight: bolder;
     color: white; }
-  .aboutsection .pautext {
+  .pautext {
     font-size: 1.2vw;
-    color: white; }
+    color: white; } }

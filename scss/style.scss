@@ -18,39 +18,45 @@
 
   /* ABOUT SECTION STYLE */
 
+  .aboutsection{
+      background-color: #73755a;
+      padding: 10vw;
+      color: white;
+  }
+
+
+@media only screen and (min-width: 768px){
     .aboutsection{
-    background-image: url(../public/contact-background.JPG);
-    background-size: cover;
-    padding: 2vw; 
-    .circle {
-        background:#73755a;
-        width: 45vw;
-        height: 45vw;
-        border-radius: 50vw;
-        display: inline-block;
-        text-align: center;
-        margin:1vw;
-        overflow:hidden;
-        padding:5vw;
-        position:relative;
-        opacity: 80%;
-    }
-    .text{
-        transform:translate(-50%,-50%);
-        position:absolute;
-        top:50%;
-        left:50%;
-    }
-    .pau{
-        font-size: 3vw;
-        font-weight: bolder;
-        color: white;
-    }
-    .pautext{
-        font-size: 1.2vw;
-        color: white; 
-    }
+        background-image: url(../public/contact-background.JPG);
+        background-size: cover;
+        padding: 2vw; }
+        .circle {
+            background:#73755a;
+            width: 45vw;
+            height: 45vw;
+            border-radius: 50vw;
+            display: inline-block;
+            text-align: center;
+            margin:1vw;
+            overflow:hidden;
+            padding:5vw;
+            position:relative;
+            opacity: 80%;
+        }
+        .text{
+            transform:translate(-50%,-50%);
+            position:absolute;
+            top:50%;
+            left:50%;
+        }
+        .pau{
+            font-size: 3vw;
+            font-weight: bolder;
+            color: white;
+        }
+        .pautext{
+            font-size: 1.2vw;
+            color: white; 
+        }
 }
-
-
 
