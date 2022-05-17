@@ -157,6 +157,8 @@ body {
   background-color: #73755a;
   padding: 10vw;
   color: white; }
+  .aboutsection .pau {
+    font-size: 25px; }
 
 @media only screen and (min-width: 768px) {
   .aboutsection {
@@ -181,7 +183,7 @@ body {
     top: 50%;
     left: 50%; }
   .pau {
-    font-size: 3vw;
+    font-size: 3vw !important;
     font-weight: bolder;
     color: white; }
   .pautext {

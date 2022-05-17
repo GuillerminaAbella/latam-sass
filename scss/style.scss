@@ -22,6 +22,9 @@
       background-color:#73755a;
       padding: 10vw;
       color: white;
+      .pau{
+          font-size: 25px;
+      }
   }
 
 
@@ -50,7 +53,7 @@
             left:50%;
         }
         .pau{
-            font-size: 3vw;
+            font-size: 3vw !important;
             font-weight: bolder;
             color: white;
         }
