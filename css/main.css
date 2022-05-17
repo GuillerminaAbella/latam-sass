@@ -136,15 +136,22 @@ body {
   line-height: 2em; }
   .products p {
     margin: 10vh; }
+  .products .p-product {
+    font-size: 30px; }
 
 .products img {
   margin: 5vh;
-  transition: transform .2s; }
+  transition: transform .2s;
+  width: 300px; }
 
 .products img:hover {
   -ms-transform: scale(1.5);
   -webkit-transform: scale(1.5);
   transform: scale(1.5); }
+
+@media only screen and (min-width: 768px) {
+  .products img {
+    width: 480px; } }
 
 .carousel-inner img {
   -webkit-filter: grayscale(90%);
