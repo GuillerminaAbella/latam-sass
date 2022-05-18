@@ -5,7 +5,7 @@
   background-color: #73755a !important;
   border: 0;
   font-size: 15px !important;
-  letter-spacing: 0.7vh;
+  letter-spacing: 0.1vh;
   opacity: 0.9; }
   .navbar .li a .navbar-brand {
     color: #d5d5d5 !important; }
@@ -28,6 +28,11 @@ footer {
   footer .footer-items {
     margin: 10px;
     align-self: center; }
+
+@media only screen and (min-width: 768px) {
+  .navbar-brand {
+    font-size: 15px;
+    letter-spacing: 0.7vh; } }
 
 .aboutmain {
   background-image: url(../public/about2pic.JPG);
