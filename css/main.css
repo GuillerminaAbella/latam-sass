@@ -31,7 +31,8 @@ footer {
 
 @media only screen and (min-width: 768px) {
   .navbar-brand {
-    font-size: 15px;
+    font-size: 15px; }
+  .navbar {
     letter-spacing: 0.7vh; } }
 
 .aboutmain {
